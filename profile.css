@@ -1,12 +1,17 @@
 <style>
+a:hover{
+  color: pink;
+}
+span{
+  font-size: 14px;
+  color: transparent;
+}
 body{
   background-image: url("ShibaInu_hero.jpg");
 }
 a{
-  color: white;
-}
-a:hover{
-  color: pink;
+  color: gray;
+
 }
 h1{
   font-size: 48px;
