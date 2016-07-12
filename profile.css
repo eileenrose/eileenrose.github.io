@@ -1,0 +1,59 @@
+<style>
+body{
+  background-image: url("ShibaInu_hero.jpg");
+}
+a{
+  color: white;
+}
+a:hover{
+  color: pink;
+}
+h1{
+  font-size: 48px;
+  font-family: cursive;
+}
+h2{
+  color: red;
+  font-size: 36px;
+  font-family: serif;
+}
+h3{
+  color: blue;
+  font-size: 20px;
+  font-family: sans-serif;
+
+}
+h4{
+  color: yellow;
+  font-size: 18px;
+  background-color: purple;
+}
+p{
+  font-size: 18px;
+  font-family: fantasy;
+  color: orange;
+}
+ul{
+  font-size: 16px;
+  font-family: inherit;
+  color: purple;
+  background-color: yellow;
+}
+ div{
+   color: green;
+   font-size: 26px;
+   font-family: verdana;
+}
+#me{
+  width: 50%;
+  height: 50%;
+  border: solid 3px black
+}
+#basic{
+  padding: 25px 25px 25px 25px;
+  width: 25%;
+  margin: 75px;
+  border: dotted 10px brown;
+
+}
+</style>
