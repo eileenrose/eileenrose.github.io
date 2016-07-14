@@ -1,0 +1,54 @@
+<html>
+<head>
+<script src="recelevator.js">
+</script>
+</head>
+<body>
+  Now suppose we want an elevator that always goes first to the most recent floor that is pressed. This is an example of a Last In First Out (LIFO) queue. How would you change the functions to implement this new behavior?
+
+Test it out with these inputs. Your output should match what you see here.
+
+>var elevatorLine = [];
+
+>currentLine(elevatorLine)
+"The line is currently empty"
+
+>pressFloorNumber(elevatorLine, 6)
+"Position 1"
+
+>pressFloorNumber(elevatorLine, 3)
+"Position 1"
+
+>goToNextFloor(elevatorLine)
+"Floor 3"
+
+>pressFloorNumber(elevatorLine, 12)
+"Position 1"
+
+>pressFloorNumber(elevatorLine, 5)
+"Position 1"
+
+>currentLine(elevatorLine)
+"The line is currently: Floor 5, Floor 12, Floor 6"
+
+>goToNextFloor(elevatorLine)
+"Floor 5"
+
+>currentLine(elevatorLine)
+"The line is currently: Floor 12, Floor 6"
+
+>goToNextFloor(elevatorLine)
+"Floor 12"
+
+>goToNextFloor(elevatorLine)
+"Floor 6"
+
+>goToNextFloor(elevatorLine)
+"There are no more floors to go to!"
+Hint
+
+Look up the push and pop methods on JavaScript arrays.
+
+
+</body>
+</html>

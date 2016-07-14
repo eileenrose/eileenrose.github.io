@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="scripts.js"></script>
+</head>
+  <body>
+    <form name ="userData">
+    <input name="status" type="text" placeholder="What's up?" /><br>
+    <select>
+      <option>Iron Man</option>
+      <option>The Hulk</option>
+      <option>Thor</option>
+      <option>Captain America</option>
+    </select><br>
+    Favorite Marvel bad guy
+    <input list="favorites" name="favorites">
+    <datalist id="favorites">
+  <option value="Red Skull">
+  <option value="Magneto">
+  <option value="Hydra">
+  <option value="Thanos">
+  <option value="Apocalypse">
+</datalist>
+  </form>
+  <button>Get data</button>
+  </body>
+</html>

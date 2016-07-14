@@ -1,0 +1,72 @@
+<html>
+<head>
+<script src="simelevator.js">
+</script>
+</head>
+<body>
+  An elevator needs programming. This elevator is very simple, because it goes to
+  the floors in the order that the floors were pressed. So if you press “6”, “3”,
+  “2” and “7”, that’s the exact order in which the elevator goes to each floor.
+
+At the beginning of the day, the elevator is empty and is represented by an empty
+array, e.g., var elevatorLine = [];
+
+Write a function pressFloorNumber that a new passenger will use when entering the
+elevator. The function accepts the current evelator, elevatorLine, along with the
+floor number pressed as parameters. The function should return its position in line.
+
+Write a function goToNextFloor. This function should return the next floor in line
+and then remove it from the line. If there are no more floors in line, it should
+return “There are no more floors to go to!”
+
+Write a function currentLine that returns the current line. For example, if
+elevatorLine is currently ["6", "3"], currentLine(elevatorLine) would return
+"The line is currently: Floor 6, Floor 3". If there is nobody in line, it should
+return "The line is currently empty".
+
+Test it out with these inputs. Your output should match what we see here.
+
+>var elevatorLine = [];
+
+>currentLine(elevatorLine)
+"The line is currently empty"
+
+>pressFloorNumber(elevatorLine, 6)
+"Position 1"
+
+>pressFloorNumber(elevatorLine, 3)
+"Position 2"
+
+>goToNextFloor(elevatorLine)
+"Floor 6"
+
+>pressFloorNumber(elevatorLine, 12)
+"Position 2"
+
+>pressFloorNumber(elevatorLine, 5)
+"Position 3"
+
+>currentLine(elevatorLine)
+"The line is currently: Floor 3, Floor 12, Floor 5"
+
+>goToNextFloor(elevatorLine)
+"Floor 3"
+
+>currentLine(elevatorLine)
+"The line is currently: Floor 12, Floor 5"
+
+>goToNextFloor(elevatorLine)
+"Floor 12"
+
+>goToNextFloor(elevatorLine)
+"Floor 5"
+
+>goToNextFloor(elevatorLine)
+"There are no more floors to go to!"
+The elevator is an example of a First In First Out (FIFO) queue. The first element in is always the first element that gets removed. So the elevator always goes to the first floor that was requested, then the next, and so on, in order.
+
+Hint
+
+Remove a single element with index i in an array with array.splice(i, 1)
+</body>
+</html>
