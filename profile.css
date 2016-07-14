@@ -1,64 +1,44 @@
-<style>
-a:hover{
-  color: pink;
+#placeholder {
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 25px;
+  border-color: green;
 }
-span{
-  font-size: 14px;
-  color: transparent;
-}
-body{
-  background-image: url("ShibaInu_hero.jpg");
-}
-a{
-  color: gray;
-
-}
-h1{
+#bragging{
+  font-family: 'Lobster', cursive;
   font-size: 48px;
-  font-family: cursive;
 }
-h2{
-  color: red;
-  font-size: 36px;
-  font-family: serif;
+#bio{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 48px;
 }
-h3{
-  color: blue;
-  font-size: 20px;
-  font-family: sans-serif;
-
+#myname{
+  font-family: 'Indie Flower', cursive;
+  font-size: 64px;
+  border-style: ridge;
+  border-color: #ff6666;
+  border-width: 15px;
+  background-color: pink;
+  margin-right: 10%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 10%;
+  padding: 20px;
 }
-h4{
-  color: yellow;
-  font-size: 18px;
-  background-color: purple;
-}
-p{
-  font-size: 18px;
-  font-family: fantasy;
-  color: orange;
-}
-ul{
-  font-size: 16px;
-  font-family: inherit;
-  color: purple;
+#info{
+  font-size: 24px;
+  font-family: 'Inconsolata' ;
+  border-style: outset;
+  border-color: purple;
+  border-width: 20px;
   background-color: yellow;
-}
- div{
-   color: green;
-   font-size: 26px;
-   font-family: verdana;
-}
-#me{
-  width: 50%;
-  height: 50%;
-  border: solid 3px black
-}
-#basic{
-  padding: 25px 25px 25px 25px;
-  width: 25%;
-  margin: 75px;
-  border: dotted 10px brown;
+  padding: 50px;
+  margin: 30px;
 
 }
-</style>
+#homestate{
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 25px;
+  border-color: blue;
+}
