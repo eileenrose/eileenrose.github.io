@@ -1,0 +1,30 @@
+application: hello-world
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /static
+  static_dir: static
+
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: .*
+  script: main.app
+
+libraries:
+- name: webapp2
+  version: "2.5.2"
+- name: jinja2
+  version: latest
+
+"""
+/favicon\.ico matches 'favicon.ico'
+/favicon.ico matches 'favicon7ico' and 'favicon.ico'
+
+url: /static match what you request in the html
+static_dir : images what folder it is in
+"""

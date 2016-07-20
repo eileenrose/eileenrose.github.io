@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meow</title>
+  </head>
+  <body>
+    {% for name in cat_owner %}
+      <h1>
+        Hello {{cat_owner[name]["owner"]}}! How is {{name}}?
+
+        {% if cat_owner[name]["college"] %}
+          Is {{cat_owner[name]}} going to {{cat_owner[name]["college"]}} with you?
+        {% else %}
+          You're looking youthful today.
+        {% endif %}
+      </h1>
+    {% endfor %}
+
+
+    <img height="100px" width="150px" src="https://blackgeoscientists.files.wordpress.com/2014/06/helloworld.jpg" alt="A cute pic of a dude on the world">
+    <h2>How are you?</h2>
+  </body>
+</html>

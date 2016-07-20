@@ -1,0 +1,44 @@
+#placeholder {
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 25px;
+  border-color: green;
+}
+#bragging{
+  font-family: 'Lobster', cursive;
+  font-size: 48px;
+}
+#bio{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 48px;
+}
+#myname{
+  font-family: 'Indie Flower', cursive;
+  font-size: 64px;
+  border-style: ridge;
+  border-color: #ff6666;
+  border-width: 15px;
+  background-color: pink;
+  margin-right: 10%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 10%;
+  padding: 20px;
+}
+#info{
+  font-size: 24px;
+  font-family: 'Inconsolata' ;
+  border-style: outset;
+  border-color: purple;
+  border-width: 20px;
+  background-color: yellow;
+  padding: 50px;
+  margin: 30px;
+
+}
+#homestate{
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 25px;
+  border-color: blue;
+}

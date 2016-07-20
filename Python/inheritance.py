@@ -29,7 +29,8 @@ class Horse(Animal):
         return 'Neigh'
 
 class Bird(Animal):
-
+    def __init__(self):
+        self.number_legs = 2
 
     def canFly(self):
         return True

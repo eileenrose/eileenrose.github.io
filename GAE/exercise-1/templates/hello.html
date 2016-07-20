@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Howdy</title>
+  </head>
+  <body>
+    {% for name in people %}
+    <h1>
+      Hello {{name}}! How is {{people[name]["favorite_cat"]}}?
+      {% if people[name]["college"] %}
+      Is {{people[name]["favorite_cat"]}} going to {{people[name]["college"]}} with you?
+      {% else %}
+      You're looking youthful today.
+      {% endif %}
+    </h1>
+    {% endfor %}
+    <img height="100px" width="150px" src="https://blackgeoscientists.files.wordpress.com/2014/06/helloworld.jpg" alt="A cute pic of a dude on the world">
+    <h2>How are you?</h2>
+  </body>
+</html>
