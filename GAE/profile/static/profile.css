@@ -1,5 +1,5 @@
 #placeholder {
-  border-style: solid;
+  border-style: groove;
   border-radius: 50%;
   border-width: 25px;
   border-color: green;
@@ -37,8 +37,8 @@
 
 }
 #homestate{
-  border-style: solid;
-  border-radius: 50%;
+  border-style: groove;
+
   border-width: 25px;
   border-color: blue;
 }
@@ -63,4 +63,11 @@ i{
    -moz-box-shadow:    inset 0 0 20px #000000;
    -webkit-box-shadow: inset 0 0 20px #000000;
    box-shadow:         inset 0 0 20px #000000;
+}
+
+.dropshadow {
+	height: auto;
+	-webkit-box-shadow: -15px 13px 20px 3px rgba(0,0,0,0.91);
+	-moz-box-shadow: -15px 13px 20px 3px rgba(0,0,0,0.91);
+	box-shadow: -15px 13px 20px 3px rgba(0,0,0,0.91);
 }

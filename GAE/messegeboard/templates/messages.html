@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>message-board</title>
+</head>
+<body>
+ <h2>Welcome To My Message Board, {{username}}</h2>
+ <div align ="center">
+ <form method="post" action=post-message>
+   <textarea name ="text" cols=60 rows=5/></textarea>
+   <input type="submit">
+ </form>
+ </div>
+ <div align=right><a href={{logout_url}}>logout</a></div>
+ <br>
+ {% for message in messages_list %}
+ <h4>{{message.author}} {{message.timestamp}}</h4>
+ <p> {{message.text}}</p>
+ {% endfor %}
+
+</body>
+</html>
